@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Ferron Tubes</title>
+
+   <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+   <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+   <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+   <link rel="manifest" href="{{ url_for('static', filename='site.html') }}">
+
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}" />
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/icofonts.css') }}" />
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/owlcarousel.min.css') }}" />
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}" />
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+
+<style>
+      .tw-counter {
+         background: url('{{ url_for('static', filename='images/factory_bg.jpg') }}') no-repeat center center;
+         background-size: cover;
+         color: #fff;
+         padding: 80px 0;
+         position: relative;
+      }
+      .tw-counter-box i {
+         font-size: 40px;
+         margin-bottom: 15px;
+         display: block;
+         color: #f9a825;
+      }
+      .tw-counter-box h4 {
+         font-size: 36px;
+         font-weight: bold;
+         margin-bottom: 10px;
+         color: #f9a825;
+      }
+      .tw-counter-box p {
+         font-size: 16px;
+         margin: 0;
+         color: #fff;
+      }
+   </style>
+</head>
+
+<body>
+
+<!-- Search Bar -->
+<div class="search-bar">
+   <i class="fa fa-close"></i>
+   <form class="search-bar-fixed" action="#">
+      <input type="text" placeholder="search...">
+      <button type="submit"><i class="icon icon-search"></i></button>
+   </form>
+</div>
+
+<!-- Top Bar -->
+<div class="tw-top-bar bg-green">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-8 text-left">
+            <div class="top-contact-info">
+               <span><i class="icon icon-map-marker2"></i> Palwal, Haryana.</span>
+               <span><i class="icon icon-envelope"></i> info@ferrontubes.com</span>
+            </div>
+         </div>
+         <div class="col-md-4 ml-auto text-right">
+            <div class="top-social-links">
+               <span>Follow us:</span>
+               <a href="https://www.facebook.com/ferrontubes"><i class="fa fa-facebook"></i></a>
+               <a href="https://www.linkedin.com/company/ferrontubes/"><i class="fa fa-linkedin"></i></a>
+               <a href="https://www.youtube.com/watch?v=0Hp2-uSHz5Y"><i class="fa fa-google-plus"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<!-- Header/Navbar -->
+<header>
+   <div class="tw-head">
+      <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand tw-nav-brand" href="{{ url_for('home') }}">
+               <img src="{{ url_for('static', filename='images/logo/logo.png') }}" alt="Ferron Tubes">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+               <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">Home</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="{{ url_for('about') }}">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('manufacturing') }}">Manufacturing</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('products') }}">Products</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('quality') }}">Quality</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('clients') }}">Clients</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url_for('static', filename='Catalogue.pdf') }}">Downloads</a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </div>
+</header>
+
+<!-- About Section -->
+<section id="main-container" class="main-container">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-6 col-md-12 text-lg-right text-md-center wow fadeInLeft">
+            <img src="{{ url_for('static', filename='images/about/About-Us-1.jpg') }}" class="img-fluid">
+         </div>
+         <div class="col-lg-6 col-md-12 wow fadeInRight intro-text-right">
+            <h2 class="column-title">Ferron <span>Tubes</span> Pvt. Ltd.</h2>
+            <p align="justify">
+               Born under the aegis of New Hindustan Tubes Pvt Ltd, a company founded in 1985, Ferron was created with the core idea of expanding to bigger horizons. With a vision to target newer industries that require steel pipes and tubes and its byproducts, Ferron is a step towards adapting to new technology and methodologies of steel production and providing quality product.
+
+An IATF 16949 : 2016 and ISO 9001:2015 certified company, Ferron is constantly on the edge of innovation and has been delivering with commitment and trust ever since its inception. The values and experience roped in at New Hindustan has given Ferron a strong lead in the market of tube manufacturing and has enabled us to establish an enviable portfolio of esteemed clients.
+            </p>
+         </div>
+      </div>
+   </div>
+</section><!-- Stats Section Start -->
+<section class="tw-counter" style="background-color: #1f1f1f; padding: 60px 0;">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1s">
+        <div class="tw-counter-box">
+          <i class="icon icon-people2" style="color: #FFA500; font-size: 40px;"></i>
+          <h4 style="color: #FFA500; font-weight: bold;"><span class="counter">250</span>+</h4>
+          <p style="color: #ffffff;">Active clients</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1.2s">
+        <div class="tw-counter-box">
+          <i class="icon icon-briefcase" style="color: #FFA500; font-size: 40px;"></i>
+          <h4 style="color: #FFA500; font-weight: bold;"><span class="counter">50</span>+</h4>
+          <p style="color: #ffffff;">Years of experience</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1.4s">
+        <div class="tw-counter-box">
+          <i class="icon icon-happy" style="color: #FFA500; font-size: 40px;"></i>
+          <h4 style="color: #FFA500; font-weight: bold;"><span class="counter">98.7</span>%</h4>
+          <p style="color: #ffffff;">Customer satisfaction</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Vision Section -->
+<section id="tw-vision-area" class="tw-vision-area">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="tw-about-bin">
+               <h2 class="column-title">The <span>Ferron Philosophy</span></h2>
+               <span class="animate-border tw-mb-40 tw-mt-20"></span>
+               <p align="justify">Ferron is the future based on the foundation of experience and trust.
+
+The Ferron philosophy of FUTURE- EXPERIENCE- TRUST is at the core of each of our principles.
+
+At Ferron, we keep quality and delivery at the center of our actions and keep these values uncompromisable.
+
+We believe in constantly looking towards the future as we believe it is by keeping our eyes ahead of the curve is how we can constantly grow and meet the demands of our esteemed clients by delivering with innovation and ease.
+
+Our foundations laid down by decades of experience has put us in a position that enables us to maintain the highest core values and work within the boundaries of strong and time trusted systems while constantly evolving.</p>
+            </div>
+         </div>
+         <div class="col-md-6 align-self-md-center">
+ <img src="{{ url_for('static', filename='images/about/About-Us-2.jpg') }}" class="img-fluid">
+            
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Footer (NO INCLUDE, Fully embedded) -->
+<footer id="tw-footer" class="tw-footer">
+   <div class="container">
+      <div class="footer-contact">
+         <div class="row">
+            <div class="col-lg-4">
+               <ul class="footer-contact-info">
+                  <li>
+                     <span><i class="icon icon-map-marker2"></i></span>
+                     <div class="info-wrapper">
+                        <p class="info-title">Find us</p>
+                        <p class="info-subtitle">Bhagola Devli Road, Palwal, Haryana.</p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-lg-4">
+               <ul class="footer-contact-info">
+                  <li>
+                     <span><i class="icon icon-phone3"></i></span>
+                     <div class="info-wrapper">
+                        <p class="info-title">Call us</p>
+                        <p class="info-subtitle">+91 - 881-400-1449</p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-lg-4">
+               <ul class="footer-contact-info">
+                  <li>
+                     <span><i class="icon icon-envelope"></i></span>
+                     <div class="info-wrapper">
+                        <p class="info-title">Mail us</p>
+                        <p class="info-subtitle">info@ferrontubes.com</p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="footer-content">
+         <div class="footer-pattern">
+            <img src="{{ url_for('static', filename='images/footer_map.png') }}" alt="Ferron Tubes">
+         </div>
+         <div class="row">
+            <div class="col-md-12 col-lg-4">
+               <div class="tw-footer-info-box">
+                  <p class="footer-info-text">An ISO9001:2015 certified company, Ferron is constantly...</p>
+                  <div class="footer-social-link">
+                     <h3>Follow us</h3>
+                     <ul>
+                        <li><a href="https://www.facebook.com/ferrontubes"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/watch?v=0Hp2-uSHz5Y"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/ferrontubes/"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+               <div class="footer-widget">
+                  <div class="section-heading"><h3>Useful Links</h3></div>
+                  <ul>
+                     <li><a href="{{ url_for('about') }}">About us</a></li>
+                     <li><a href="{{ url_for('products') }}">Products</a></li>
+                     <li><a href="{{ url_for('manufacturing') }}">Manufacturing</a></li>
+                     <li><a href="{{ url_for('quality') }}">Quality</a></li>
+                     <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+               <div class="footer-widget">
+                  <div class="section-heading"><h3>Factory Tour</h3></div>
+                  <iframe height="250" src="https://www.youtube.com/embed/0Hp2-uSHz5Y" title="Factory Tour" frameborder="0" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-md-12">
+                  <span>Copyright © 2018, All Right Reserved Ferron Tubes Pvt. Ltd.</span>
+               </div>
+               <div class="col-lg-6 col-md-12">
+                  <div class="copyright-menu">
+                     <ul>
+                        <li><a href="{{ url_for('home') }}">Home</a></li>
+                        <li><a href="{{ url_for('about') }}">About Us</a></li>
+                        <li><a href="{{ url_for('products') }}">Products</a></li>
+                        <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="back-to-top" class="back-to-top">
+         <button class="btn btn-dark" title="Back to Top">
+            <i class="fa fa-angle-up"></i>
+         </button>
+      </div>
+   </footer>
+
+<!-- JS Files -->
+<script src="{{ url_for('static', filename='js/jquery-2.0.0.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/owl-carousel.2.3.0.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/waypoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.magnific.popup.js') }}"></script>
+<script src="{{ url_for('static', filename='js/smoothscroll.js') }}"></script>
+<script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>
